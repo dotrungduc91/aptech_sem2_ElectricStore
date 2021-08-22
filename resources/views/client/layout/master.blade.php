@@ -24,15 +24,15 @@
 	<!-- //Meta tag Keywords -->
 
 	<!-- Custom-Files -->
-	<link href="{{ asset('project/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{ asset('//project/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<!-- Bootstrap css -->
-	<link href="{{ asset('project/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{ asset('//project/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<!-- Main css -->
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<!-- Font-Awesome-Icons-CSS -->
-	<link href="{{ asset('project/css/popuo-box.css') }}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{ asset('//project/css/popuo-box.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<!-- pop-up-box -->
-	<link href="{{ asset('project/css/menu.css') }}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{ asset('//project/css/menu.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<!-- menu style -->
 	<!-- //Custom-Files -->
 
