@@ -149,7 +149,7 @@
 						libero aliquam. Fusce semper augue ac dolor efficitur, a pretium metus pellentesque.</p>
 				</div>
 				<div class="col-lg-6 welcome-right-top mt-lg-0 mt-sm-5 mt-4">
-					<img src="{{ URL::asset('project/images/ab.jpg') }}" class="img-fluid" alt=" ">
+					<img src="{{ asset('project/images/ab.jpg') }}" class="img-fluid" alt=" ">
 				</div>
 			</div>
 		</div>
@@ -173,7 +173,7 @@
 					</div>
 					<div class="row med-testi-left my-5">
 						<div class="col-lg-2 col-3 w3ls-med-testi-img">
-							<img src="{{ URL::asset('project/images/user.jpg') }}" alt=" " class="img-fluid rounded-circle" />
+							<img src="{{ asset('project/images/user.jpg') }}" alt=" " class="img-fluid rounded-circle" />
 						</div>
 						<div class="col-lg-10 col-9 med-testi-txt">
 							<h4 class="font-weight-bold mb-lg-1 mb-2">Tyson</h4>
@@ -188,7 +188,7 @@
 					</div>
 					<div class="row med-testi-left my-5">
 						<div class="col-lg-2 col-3 w3ls-med-testi-img">
-							<img src="{{ URL::asset('project/images/user.jpg') }}" alt=" " class="img-fluid rounded-circle" />
+							<img src="{{ asset('project/images/user.jpg') }}" alt=" " class="img-fluid rounded-circle" />
 						</div>
 						<div class="col-lg-10 col-9 med-testi-txt">
 							<h4 class="font-weight-bold mb-lg-1 mb-2">Alejandra</h4>
@@ -203,7 +203,7 @@
 					</div>
 					<div class="row med-testi-left mt-sm-5 my-5">
 						<div class="col-lg-2 col-3 w3ls-med-testi-img">
-							<img src="{{ URL::asset('project/images/user.jpg') }}" alt=" " class="img-fluid rounded-circle" />
+							<img src="{{ asset('project/images/user.jpg') }}" alt=" " class="img-fluid rounded-circle" />
 						</div>
 						<div class="col-lg-10 col-9 med-testi-txt">
 							<h4 class="font-weight-bold mb-lg-1 mb-2">Charles</h4>
@@ -218,7 +218,7 @@
 					</div>
 					<div class="row med-testi-left mt-5">
 						<div class="col-lg-2 col-3 w3ls-med-testi-img">
-							<img src="{{ URL::asset('project/images/user.jpg') }}" alt=" " class="img-fluid rounded-circle" />
+							<img src="{{ asset('project/images/user.jpg') }}" alt=" " class="img-fluid rounded-circle" />
 						</div>
 						<div class="col-lg-10 col-9 med-testi-txt">
 							<h4 class="font-weight-bold mb-lg-1 mb-2">Jessie</h4>
@@ -235,7 +235,7 @@
 @section('js')
 	<!-- js-files -->
 	<!-- jquery -->
-	<script src="{{ URL::asset('project/js/jquery-2.2.3.min.js') }}"></script>
+	<script src="{{ asset('project/js/jquery-2.2.3.min.js') }}"></script>
 	<!-- //jquery -->
 
 	<!-- nav smooth scroll -->
@@ -256,7 +256,7 @@
 	<!-- //nav smooth scroll -->
 
 	<!-- popup modal (for location)-->
-	<script src="{{ URL::asset('project/js/jquery.magnific-popup.js') }}"></script>
+	<script src="{{ asset('project/js/jquery.magnific-popup.js') }}"></script>
 	<script>
 		$(document).ready(function () {
 			$('.popup-with-zoom-anim').magnificPopup({
@@ -276,7 +276,7 @@
 	<!-- //popup modal (for location)-->
 
 	<!-- cart-js -->
-	<script src="{{ URL::asset('project/js/minicart.js') }}"></script>
+	<script src="{{ asset('project/js/minicart.js') }}"></script>
 	<script>
 		paypals.minicarts.render(); //use only unique class names other than paypals.minicarts.Also Replace same class name in css and minicart.min.js
 
@@ -319,12 +319,12 @@
 	<!-- //password-script -->
 
 	<!-- smoothscroll -->
-	<script src="{{ URL::asset('project/js/SmoothScroll.min.js') }}"></script>
+	<script src="{{ asset('project/js/SmoothScroll.min.js') }}"></script>
 	<!-- //smoothscroll -->
 
 	<!-- start-smooth-scrolling -->
-	<script src="{{ URL::asset('project/js/move-top.js') }}"></script>
-	<script src="{{ URL::asset('project/js/easing.js') }}"></script>
+	<script src="{{ asset('project/js/move-top.js') }}"></script>
+	<script src="{{ asset('project/js/easing.js') }}"></script>
 	<script>
 		jQuery(document).ready(function ($) {
 			$(".scroll").click(function (event) {
@@ -358,7 +358,7 @@
 	<!-- //smooth-scrolling-of-move-up -->
 
 	<!-- for bootstrap working -->
-	<script src="{{ URL::asset('project/js/boostrap.js') }}"></script>
+	<script src="{{ asset('project/js/boostrap.js') }}"></script>
 	<!-- //for bootstrap working -->
 	<!-- //js-files -->
 @endsection

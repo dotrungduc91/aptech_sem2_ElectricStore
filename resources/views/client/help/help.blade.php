@@ -283,7 +283,7 @@
 								<p>Sale up to 25% off all in store</p>
 							</div>
 							<div class="col-sm-5 offerimg-w3l">
-								<img src="{{ URL::asset('project/images/off1.png') }}" alt="" class="img-fluid">
+								<img src="{{ asset('project/images/off1.png') }}" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
@@ -297,7 +297,7 @@
 								<p>Free shipping order over $100</p>
 							</div>
 							<div class="col-sm-5 offerimg-w3l">
-								<img src="{{ URL::asset('project/images/off2.png') }}" alt="" class="img-fluid">
+								<img src="{{ asset('project/images/off2.png') }}" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
@@ -311,7 +311,7 @@
 @section('js')
 	<!-- js-files -->
 	<!-- jquery -->
-	<script src="{{ URL::asset('project/js/jquery-2.2.3.min.js') }}"></script>
+	<script src="{{ asset('project/js/jquery-2.2.3.min.js') }}"></script>
 	<!-- //jquery -->
 
 	<!-- nav smooth scroll -->
@@ -332,7 +332,7 @@
 	<!-- //nav smooth scroll -->
 
 	<!-- popup modal (for location)-->
-	<script src="{{ URL::asset('project/js/jquery.magnific-popup.js') }}"></script>
+	<script src="{{ asset('project/js/jquery.magnific-popup.js') }}"></script>
 	<script>
 		$(document).ready(function () {
 			$('.popup-with-zoom-anim').magnificPopup({
@@ -352,7 +352,7 @@
 	<!-- //popup modal (for location)-->
 
 	<!-- cart-js -->
-	<script src="{{ URL::asset('project/js/minicart.js') }}"></script>
+	<script src="{{ asset('project/js/minicart.js') }}"></script>
 	<script>
 		paypals.minicarts.render(); //use only unique class names other than paypals.minicarts.Also Replace same class name in css and minicart.min.js
 
@@ -395,12 +395,12 @@
 	<!-- //password-script -->
 
 	<!-- smoothscroll -->
-	<script src="{{ URL::asset('project/js/SmoothScroll.min.js') }}"></script>
+	<script src="{{ asset('project/js/SmoothScroll.min.js') }}"></script>
 	<!-- //smoothscroll -->
 
 	<!-- start-smooth-scrolling -->
-	<script src="{{ URL::asset('project/js/move-top.js') }}"></script>
-	<script src="{{ URL::asset('project/js/easing.js') }}"></script>
+	<script src="{{ asset('project/js/move-top.js') }}"></script>
+	<script src="{{ asset('project/js/easing.js') }}"></script>
 	<script>
 		jQuery(document).ready(function ($) {
 			$(".scroll").click(function (event) {
@@ -434,7 +434,7 @@
 	<!-- //smooth-scrolling-of-move-up -->
 
 	<!-- for bootstrap working -->
-	<script src="{{ URL::asset('project/js/boostrap.js') }}"></script>
+	<script src="{{ asset('project/js/boostrap.js') }}"></script>
 	<!-- //for bootstrap working -->
 	<!-- //js-files -->
 @endsection
