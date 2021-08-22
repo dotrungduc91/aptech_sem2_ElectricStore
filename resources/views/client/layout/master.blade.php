@@ -19,7 +19,7 @@
 			window.scrollTo(0, 1);
 		}
 	</script>
-	<script src="{{ asset('js/app.js') }}"></script>
+	<script src="{{ asset('/js/app.js') }}"></script>
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<!-- //Meta tag Keywords -->
 
@@ -143,7 +143,7 @@
 								<div class="col-md-3 logo_agile">
 									<h1 class="text-center">
 										<a href="{{ route('client_index') }}" class="font-weight-bold font-italic">
-											<img src="{{ asset('project/images/logo2.png') }}" alt=" " class="img-fluid">Electric Store
+											<img src="{{ asset('/project/images/logo2.png') }}" alt=" " class="img-fluid">Electric Store
 										</a>
 									</h1>
 								</div>
