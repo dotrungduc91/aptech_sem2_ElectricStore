@@ -24,15 +24,15 @@
 	<!-- //Meta tag Keywords -->
 
 	<!-- Custom-Files -->
-	<link href="{{ URL::asset('project/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{ asset('project/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<!-- Bootstrap css -->
-	<link href="{{ URL::asset('project/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{ asset('project/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<!-- Main css -->
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<!-- Font-Awesome-Icons-CSS -->
-	<link href="{{ URL::asset('project/css/popuo-box.css') }}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{ asset('project/css/popuo-box.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<!-- pop-up-box -->
-	<link href="{{ URL::asset('project/css/menu.css') }}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{ asset('project/css/menu.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<!-- menu style -->
 	<!-- //Custom-Files -->
 
@@ -143,7 +143,7 @@
 								<div class="col-md-3 logo_agile">
 									<h1 class="text-center">
 										<a href="{{ route('client_index') }}" class="font-weight-bold font-italic">
-											<img src="{{ URL::asset('project/images/logo2.png') }}" alt=" " class="img-fluid">Electric Store
+											<img src="{{ asset('project/images/logo2.png') }}" alt=" " class="img-fluid">Electric Store
 										</a>
 									</h1>
 								</div>
