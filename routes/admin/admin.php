@@ -105,7 +105,7 @@ Route::group(['prefix' => 'admin'], function () {
 	// });
 
 	// Order
-	Route::resource('order', OrderController::class)-> only(['index','show','destroy']);
+	Route::resource('order', OrderController::class);
 
 	//Thay doi trang thai don hang
 	Route::group(['prefix' => 'order'], function () {

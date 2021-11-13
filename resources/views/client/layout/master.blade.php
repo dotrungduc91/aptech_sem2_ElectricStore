@@ -80,7 +80,9 @@
 									@endif
 									@else
 									<li class="text-center border-right text-white px-4">
-										<a href="{{ route('client_user') }}" class="text-white">Xin chào, {{ Auth::user()->name }}</a>
+										<a href="{{ route('client_user') }}" class="text-white">Xin chào, {{ Auth::user()->name }} 
+										(Lịch sử đơn hàng)
+										</a>
 									</li>
 									<li class="text-center text-white px-4">
 										<a href="{{ route('logout') }}"  class="text-white" onclick="event.preventDefault();
