@@ -57,7 +57,7 @@ class ClientController extends Controller
         $productListTime =[];
         //Lấy ra sản phẩm đã được sắp xếp theo thứ tự gần nhất của time của + leftjoin bảng category để lấy parent_id
         foreach ($productList as $product) {
-            if (time() - strtotime($product->created_at) < 20*24*60*60 ) {
+            if (time() - strtotime($product->created_at) < 1000*24*60*60 ) {
                 $productListTime[] = $product;
             }
         }
